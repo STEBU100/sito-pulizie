@@ -1,0 +1,80 @@
+﻿/* =========================
+   HERO HOME
+========================= */
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url("../img/hero.jpg") center / cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 160px 80px;
+    color: #fff;
+}
+
+/* Testo a sinistra */
+.hero-text {
+    max-width: 520px;
+    margin-left: 100px;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Box a destra */
+.hero-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-box {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    color: #fff;
+
+    padding: 30px 40px;
+    min-width: 260px;
+
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 10px;
+
+    transition: all 0.35s ease;
+
+    margin-right: 100px;    /* 👈 sposta a sinistra */
+}
+
+.hero-box:hover {
+    background: rgba(255,255,255,0.22);
+    transform: translateY(-6px);
+}
+
+/* BOX CHI SIAMO */
+
+.hero-box-primary {
+    background: rgba(30,136,229,0.75);
+    border: 1px solid rgba(30,136,229,0.9);
+}
+
+.hero-box-primary:hover {
+    background: rgba(30,136,229,0.9);
+}
+

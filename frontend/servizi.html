@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Servizi | Impresa di Pulizie La Splendida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/servizi.css">
+</head>
+<body>
+
+     <!--TOP BAR-->
+
+<header class="topbar">
+
+    <!-- LOGO -->
+    <img 
+        src="img/logo-bar.png" 
+        alt="Impresa di Pulizie La Splendida" 
+        class="logo-bar"
+    >
+
+    <!-- CONTATTI TOP -->
+    <div class="topbar-contact">
+
+        <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@lasplendida.it">
+                info@lasplendida.it
+            </a>
+        </div>
+
+        <span class="contact-separator">|</span>
+
+        <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <a href="tel:+393331234567">
+                +39 333 123 4567
+            </a>
+        </div>
+
+    </div>
+
+</header>
+
+
+<section class="servizi">
+
+    <div class="section-header">
+        <h1>I nostri servizi</h1>
+        <p>Soluzioni di pulizia professionali per ogni esigenza</p>
+    </div>
+
+    <div class="servizi-boxes">
+
+        <div class="servizio-box">
+            <img src="img/condomini.jpg" alt="Pulizie condomini">
+            <div class="servizio-content">
+                <h2>Condomini</h2>
+                <p>Pulizia scale, spazi comuni e aree condominiali con interventi regolari e affidabili.</p>
+            </div>
+        </div>
+
+        <div class="servizio-box">
+            <img src="img/uffici.jpg" alt="Pulizie uffici">
+            <div class="servizio-content">
+                <h2>Uffici</h2>
+                <p>Ambienti di lavoro sempre puliti e ordinati per aziende e studi professionali.</p>
+            </div>
+        </div>
+
+        <div class="servizio-box">
+            <img src="img/case.jpg" alt="Pulizie case private">
+            <div class="servizio-content">
+                <h2>Abitazioni private</h2>
+                <p>Pulizie ordinarie e straordinarie per abitazioni private, con massima cura e discrezione.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact-section">
+
+    <div class="section-header">
+        <h2>Richiedi un preventivo</h2>
+        <p>Compila il modulo e verrai ricontattato al più presto</p>
+    </div>
+
+    <form id="contatto-form" class="contact-form">
+
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" required>
+        </div>
+
+        <div class="form-group">
+            <label for="messaggio">Messaggio</label>
+            <textarea id="messaggio" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Invia richiesta</button>
+        <p id="risultato"></p>
+
+    </form>
+
+</section>
+
+<script src="js/contatti.js"></script>
+
+<!--FOOTER -->
+
+<footer class="site-footer minimal-footer">
+    © 2026 Impresa di Pulizie La Splendida – Tutti i diritti riservati
+</footer>
+
+
+</body>
+</html>

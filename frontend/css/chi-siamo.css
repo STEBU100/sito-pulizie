@@ -1,0 +1,86 @@
+﻿body {
+    background: 
+        linear-gradient(
+            rgba(15,17,21,0.75),
+            rgba(15,17,21,0.75)
+        ),
+        url("../img/milano.jpg") center / cover no-repeat fixed;
+}
+
+.chi-siamo-story,
+.chi-siamo-valori-section {
+    max-width: 900px;
+    margin: 80px auto 140px;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.chi-siamo-valori-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.valore {
+    padding-left: 18px;
+    border-left: 4px solid var(--azzurro);
+    font-weight: 600;
+}
+
+.chi-siamo-valori-section h2 {
+    margin-bottom: 20px;   
+}
+
+.chi-siamo-story {
+    max-width: 1000px;
+    margin: 120px auto;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.chi-siamo-story h2 {
+    font-size: 34px;
+    margin-bottom: 24px;
+}
+
+.chi-siamo-story p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    opacity: 0.95;
+}
+
+.contact-section {
+    background: #f5f7fa;
+    padding: 120px 80px;
+}
+
+.chi-siamo-hero {
+    min-height: 34vh;  /* altezza scritta CHI siamo */
+
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #fff;
+    padding: 140px 20px 40px;
+}
+
+.chi-siamo-hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+
+.chi-siamo-hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+
+

@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi siamo | Impresa di Pulizie La Splendida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chi-siamo.css">
+</head>
+<body>
+
+<!-- =========================
+     TOP BAR
+========================= -->
+<header class="topbar">
+
+    <img 
+        src="img/logo-bar.png" 
+        alt="Impresa di Pulizie La Splendida" 
+        class="logo-bar"
+    >
+
+    <div class="topbar-contact">
+        <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@lasplendida.it">info@lasplendida.it</a>
+        </div>
+
+        <span class="contact-separator">|</span>
+
+        <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <a href="tel:+393331234567">+39 333 123 4567</a>
+        </div>
+    </div>
+
+</header>
+
+<!-- =========================
+     HERO CHI SIAMO
+========================= -->
+<section class="chi-siamo-hero">
+    <div class="chi-siamo-hero-content">
+        <h1>Chi siamo</h1>
+        <p>
+            Un’impresa di pulizie affidabile, puntuale e attenta ai dettagli,
+            al servizio di aziende, condomini e privati.
+        </p>
+    </div>
+</section>
+
+<!-- =========================
+     STORIA / PRESENTAZIONE
+========================= -->
+<section class="chi-siamo-story">
+
+    <div class="chi-siamo-story-grid">
+
+        <div class="chi-siamo-story-text">
+            <h2>Un punto di riferimento per la pulizia professionale</h2>
+
+            <p>
+                <strong>La Splendida</strong> è un’impresa di pulizie specializzata
+                nella sanificazione e manutenzione di uffici, condomini e abitazioni private.
+            </p>
+
+            <p>
+                Operiamo ogni giorno con l’obiettivo di garantire ambienti
+                puliti, ordinati e sicuri, perché crediamo che la qualità
+                degli spazi influisca direttamente sul benessere delle persone.
+            </p>
+
+            <p>
+                Ogni intervento viene pianificato con attenzione,
+                utilizzando prodotti professionali e personale qualificato,
+                nel rispetto degli ambienti e delle esigenze del cliente.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     VALORI
+========================= -->
+<section class="chi-siamo-valori-section">
+
+    <h2>Perché scegliere La Splendida</h2>
+
+    <div class="chi-siamo-valori-grid">
+        <div class="valore">✔ Esperienza e affidabilità consolidate</div>
+        <div class="valore">✔ Interventi personalizzati</div>
+        <div class="valore">✔ Massima puntualità</div>
+        <div class="valore">✔ Personale qualificato</div>
+        <div class="valore">✔ Prodotti professionali e sicuri</div>
+        <div class="valore">✔ Prezzi chiari e competitivi</div>
+    </div>
+
+</section>
+
+<!-- =========================
+     CONTATTO
+========================= -->
+<section class="contact-section">
+
+    <div class="section-header">
+        <h2>Richiedi un preventivo</h2>
+        <p>Compila il modulo e verrai ricontattato al più presto</p>
+    </div>
+
+    <form id="contatto-form" class="contact-form">
+
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" required>
+        </div>
+
+        <div class="form-group">
+            <label for="messaggio">Messaggio</label>
+            <textarea id="messaggio" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Invia richiesta</button>
+        <p id="risultato"></p>
+
+    </form>
+
+</section>
+
+<script src="js/contatti.js"></script>
+
+
+<!--FOOTER -->
+
+<footer class="site-footer minimal-footer">
+    © 2026 Impresa di Pulizie La Splendida – Tutti i diritti riservati
+</footer>
+
+
+</body>
+</html>
